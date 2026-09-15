@@ -1,7 +1,7 @@
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! lundmaru !
+    + Discord: lundmaru
+    + Community: https://discord.gg/offcord
     + for any queries reach out Community or DM me.
 """
 import os 
@@ -47,13 +47,13 @@ async def load_reactionrole ():
 
 
 def print_startup_banner ():
-    """Print the AeroX startup banner"""
+    """Print the lundmaru startup banner"""
     banner = [
-        "AeroX Multipurpose Bot",
+        "lundmaru Multipurpose Bot",
         "──────────────────────────────────────",
         "System: Operational",
-        "Developer: itsfizys (AeroX Development)",
-        "Community: https://discord.gg/aerox",
+        "Developer: lundmaru ",
+        "Community: https://discord.gg/offcord",
         "──────────────────────────────────────"
     ]
     for line in banner:
@@ -61,7 +61,7 @@ def print_startup_banner ():
 
 def print_system_ready ():
     """Print the final system ready message"""
-    logger.success("SYSTEM", "AeroX is now online and ready to serve!")
+    logger.success("SYSTEM", "lundmaru is now online and ready to serve!")
 
 _log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
 os.makedirs(_log_dir, exist_ok=True)
@@ -142,7 +142,7 @@ class TicketBot (Yuna ):
                     ping_role_id INTEGER,
                     embed_title TEXT DEFAULT 'Create a Ticket',
                     embed_description TEXT DEFAULT 'Need assistance? Select a category below to create a ticket, and our support team will assist you shortly! 📩',
-                    embed_footer TEXT DEFAULT 'Powered by AeroX Development',
+                    embed_footer TEXT DEFAULT 'Powered by Community',
                     embed_image_url TEXT,
                     embed_color INTEGER DEFAULT 16711680,
                     panel_type TEXT DEFAULT 'dropdown'
@@ -172,7 +172,7 @@ class TicketBot (Yuna ):
                                 ping_role_id INTEGER,
                                 embed_title TEXT DEFAULT 'Create a Ticket',
                                 embed_description TEXT DEFAULT 'Need assistance? Select a category below to create a ticket, and our support team will assist you shortly! 📩',
-                                embed_footer TEXT DEFAULT 'Powered by AeroX Development',
+                                embed_footer TEXT DEFAULT 'Powered by Community',
                                 embed_image_url TEXT,
                                 embed_color INTEGER DEFAULT 16711680,
                                 panel_type TEXT DEFAULT 'dropdown'
@@ -444,8 +444,8 @@ if __name__ =='__main__':
         logger.error ("INIT", f"Critical error: {e}")
         sys .exit (1 )
 """
-: ! Aegis !
-    + Discord: itsfizys
-    + Community: https://discord.gg/aerox (AeroX Development )
+: ! lundmaru !
+    + Discord: lundmaru
+    + Community: https://discord.gg/offcord
     + for any queries reach out Community or DM me.
 """
